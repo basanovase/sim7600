@@ -1,6 +1,6 @@
 # SIM7600 MicroPython Library
 
-This library provides a set of classes to interact with the SIM7600 module using MicroPython. The library covers core functionalities, SMS, calling, GPRS, HTTP, FTP, phonebook, TCP/IP, and HTTPS operations.
+MicroPython SIM7600 module. The library covers SMS, calling, GPRS, HTTP, FTP, phonebook, TCP/IP, and HTTP operations.
 
 ## Installation
 
