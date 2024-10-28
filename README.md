@@ -40,12 +40,7 @@ sms.delete_sms(1)
 response = sms.list_sms('ALL')
 print(response)
 ```
-# Calling 
-``python 
 
-
-markdown
-Copy code
 # SIM7600 MicroPython Library
 
 This library provides a set of classes to interact with the SIM7600 module using MicroPython. The library covers core functionalities, SMS, calling, GPRS, HTTP, FTP, phonebook, TCP/IP, and HTTPS operations.
