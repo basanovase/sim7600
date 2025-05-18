@@ -200,3 +200,8 @@ ftp.delete_file('/remote/path/file.txt')
 files = ftp.list_files('/remote/path/')
 print(files)
 ```
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
