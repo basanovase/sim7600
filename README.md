@@ -1,48 +1,5 @@
 # SIM7600 MicroPython Library
 
-MicroPython SIM7600 module. The library covers SMS, calling, GPRS, HTTP, FTP, phonebook, TCP/IP, and HTTP operations.
-
-## Installation
-
-Copy the sim7600 to your micropython device
-
-
-## Usage
-
-### Core Functionality
-
-```python
-from sim7600 import SIM7600
-import machine
-
-# Initialize the SIM7600 module
-uart = machine.UART(1, baudrate=115200, tx=17, rx=16)
-sim7600 = SIM7600(uart)
-```
-
-# SMS
-```python
-from sim7600.sms import SMS
-
-sms = SMS(sim7600)
-
-# Send an SMS
-sms.send_sms('+1234567890', 'Hello, world!')
-
-# Read an SMS
-response = sms.read_sms(1)
-print(response)
-
-# Delete an SMS
-sms.delete_sms(1)
-
-# List all SMS
-response = sms.list_sms('ALL')
-print(response)
-```
-
-# SIM7600 MicroPython Library
-
 This library provides a set of classes to interact with the SIM7600 module using MicroPython. The library covers core functionalities, SMS, calling, GPRS, HTTP, FTP, phonebook, TCP/IP, and HTTPS operations.
 
 ## Installation
@@ -58,7 +15,6 @@ Copy the following files to your MicroPython environment:
 - `ftp.py`
 - `phonebook.py`
 - `tcpip.py`
-- `https.py`
 
 ## Usage
 
